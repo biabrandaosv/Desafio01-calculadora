@@ -12,19 +12,21 @@ export const Container = styled.div`
 
 
 export const Content = styled.div`
-    background-color: #FFFFFF;
-    width: 50%;
+    background-color: #000000;
+    padding: 10px;
+    width: auto;
+    border-radius: 15px;
 `
 
 export const Row = styled.div`
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 `
 
 export const Column = styled.div`
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
